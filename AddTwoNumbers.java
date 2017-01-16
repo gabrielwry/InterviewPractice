@@ -12,6 +12,7 @@
 *     ListNode(int x) { val = x; }
 * }
 */
+/*hint: keep track of carry*/
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
        int n1=0;
