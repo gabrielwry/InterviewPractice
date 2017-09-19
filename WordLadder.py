@@ -11,25 +11,37 @@ class Solution(object):
         :type wordList: List[str]
         :rtype: int
         """
-        child = []
-        level = 0
-        current = [beginWord]
-        node = beginWord
-        counter = 0
-        while(stringDiff(node,endWord)!=0):
-        	print counter,current
-        	counter+=1
-        	node = current.pop(0)
-	        for each in wordList:
-	        	if stringDiff(node,each) == 1:
-	        		child.append(each)
-	        		wordList.remove(each)
-	        if len(current)==0:
-	        	current = child
-	        	level+=1
-        return level
+        copy =wordList[:]
+        begin_queue = [beginWord]
+        begin_level = 0
+        begin_level_length = 0
+        end_queue = [endWord]
+        end_level = 0
+        end_level_length = 0
+        end = False
+        while(not end):
+        	begin_node = begin_queue.pop(0)
+        	end_node = end_queue.pop(0)
 
-        	
+        	if begin_node == '/':
+        		begin_level +=1
+        	if end_node == '/':
+        		end_level +=1
+        	else:
+        		if begin_node in end_queue or end_node in begin_queue:
+	        		print begin_node, end_queue
+	        		return begin_level + end_level
+        		for each in wordList:
+	        		if stringDiff(begin_node,each) == 1:
+	        			begin_queue.append(each)
+	        			end = False
+
+	        		if stringDiff(end_node,each) == 1:
+	        			end_queue.append(each)
+	        			end = False
+
+        	begin_queue.append('/')
+        	end_queue.append('/')
 	        
 
 
@@ -41,4 +53,4 @@ def stringDiff(word_1,word_2):
 	return diff
 
 solution = Solution()
-print solution.ladderLength('hellp','helao',['tellp','tello','hello','helao'])
+print solution.ladderLength('hit','cog',["hot","dot","dog","lot","cog"])

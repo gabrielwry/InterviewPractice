@@ -1,3 +1,8 @@
+"""
+	Construct a min_list of the min value before this position
+	Traverse the original array in reverse order, calculate the range from current position to the end of this array
+	If the range falls into the range of the min_list and the current position, return True
+"""
 class Solution(object):
     def find132pattern(self, nums):
         """

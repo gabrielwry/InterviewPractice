@@ -1,3 +1,6 @@
+"""
+    
+"""
 class Solution(object):
     def computeArea(self, A, B, C, D, E, F, G, H):
         """
