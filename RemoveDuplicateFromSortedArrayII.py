@@ -10,11 +10,8 @@ Your function should return length = 5, with the first five elements of nums bei
 Runs perfectly on local, index out of range error on server
 """
 class Solution(object):
-    def removeDuplicates(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+    """
+        def removeDuplicates(self, nums):
         length = 0
         while len(nums)!= 0:
             if len(nums) == 1:
@@ -31,5 +28,16 @@ class Solution(object):
                 length += 1
         return length
 
+    """
+
+    def removeDuplicates(self, nums):
+        i = 0
+        for n in nums:
+            if i < 2 or n > nums[i - 2]:
+                nums[i] = n
+                i += 1
+        return i
+
+
 solution= Solution()
-solution.removeDuplicates([1,1])
+print solution.removeDuplicates([1,1])
