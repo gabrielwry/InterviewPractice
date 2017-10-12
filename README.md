@@ -1,3 +1,9 @@
-# LeetCode
-Practice to LeetCode
-This is a practice to Interview questions.
+# Interview Practice
+This repository holds all practice to interview questions. <br  >
+
+Include:
+
+* LeetCode
+* geeksforgeeks
+* Real Interview Questions
+
