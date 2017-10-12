@@ -15,6 +15,8 @@ def countChar(s):
 	return count
 
 class Solution(object):
+
+
     def longestPalindrome(self, s):
         """
         :type s: str
