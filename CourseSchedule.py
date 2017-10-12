@@ -14,12 +14,31 @@ class Solution(object):
         :type prerequisites: List[List[int]]
         :rtype: bool
         """
-        if not prerequisites:
-            return True
-        visited =[0]*numCourses # list to keep track of cycle
+        acyclic = True
+        taken = [0] * numCourses
+        ancestor = [0] * numCourses
+        for course in range(0,numCourses):
+            if not taken[course]:
+                acyclic = helper(self,course,taken,ancestor,prerequisites)
 
+        return acyclic
+
+def helper(self,course,taken,ancestor,prerequisites):
+    taken[course] = 1
+    for each in prerequisites:
+        if each[1] == course:
+            ancestor[course] = 1
+            print course,ancestor,taken
+            if ancestor[each[0]] == 1:
+                return False
+            elif not taken[each[0]]:
+                ancestor[each[0]] = 1
+                taken[each[0]] = 1
+                return helper(self,each[0],taken,ancestor,prerequisites)
+    ancestor[course] = 0
+    return True
 
 
 
 solution = Solution()
-print solution.canFinish(2,[[0,1]])
+print solution.canFinish(3,[[0,2],[1,2],[2,0]])
