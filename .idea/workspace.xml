@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4238cd5e-226d-4dd7-a3e8-b1340efed636" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bored.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dijkstra.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AddTwoNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LengthOfLongestSubstring.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FloydWarshall.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CourseSchedule.py" afterPath="$PROJECT_DIR$/CourseSchedule.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Dijkstra.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dijkstra.py">
+      <file leaf-file-name="FloydWarshall.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FloydWarshall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+            <state relative-caret-position="357">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -58,6 +54,7 @@
         <option value="$PROJECT_DIR$/Bored.py" />
         <option value="$PROJECT_DIR$/CourseSchedule.py" />
         <option value="$PROJECT_DIR$/Dijkstra.py" />
+        <option value="$PROJECT_DIR$/FloydWarshall.py" />
       </list>
     </option>
   </component>
@@ -392,8 +389,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dijkstra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+        <state relative-caret-position="630">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FloydWarshall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
