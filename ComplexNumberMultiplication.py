@@ -14,5 +14,5 @@ class Solution(object):
         result_complex = int(a_real) * int(b_complex[:-1]) + int(b_real) * int(a_complex[:-1])
         result = str(result_real)+'+'+str(result_complex)+'i'
         return result
-        
+
 # easy peasy, lemon squeezy
