@@ -1,15 +1,7 @@
-# Preparation
+# Interview Practice
 
-Step 1: Understand and memorize basic data structures:
+Cover (entry-level) topics in Algorithm & Data Structures, Database System, Web Development and Data Science. 
 
-- Sorting and Searching
-- Stack, Queue, Heap
-- Tree
-- Graph
-- Linked List
-
-Step 2: Implement basic algorithms on whiteboard:
-
-- TODO
+TODO: A LOT, contribution welcomed. 
 
 ​
