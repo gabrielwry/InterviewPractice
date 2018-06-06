@@ -1,20 +1,15 @@
-# Interview Practice
-This repository holds all practice to interview questions. <br  >
+# Preparation
 
-Include:
+Step 1: Understand and memorize basic data structures:
 
-* LeetCode
-* geeksforgeeks
-* Real Interview Questions
+- Sorting and Searching
+- Stack, Queue, Heap
+- Tree
+- Graph
+- Linked List
 
+Step 2: Implement basic algorithms on whiteboard:
 
-## Software Engineer / Data Analyst Interview Prep
+- TODO
 
-- Algorithm
-- Database System
-- Java / Python
-- Linux / C / System Programming
-- ML/AI
-- Data Mining
-- NLP
-- Web Development (Front-end)
+​
